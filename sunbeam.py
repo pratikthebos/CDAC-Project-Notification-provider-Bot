@@ -11,14 +11,14 @@ from aiogram import Bot, Dispatcher, executor, types
 import mysql.connector as connector
 #from config import TOKEN_API
 
-bot = Bot("7753361066:AAHcpIdZnmbexVt4pbBIArKLGHaVokqO8LU")
+bot = Bot("Telegram_Token")
 dp = Dispatcher(bot)
 
 conn = connector.connect(
-    database = 'institutemanagement',
-    host = 'localhost',
-    username = 'W3_87118_Pratik',
-    password = 'manager'
+    database = '',
+    host = ''
+    username = '',
+    password = ''
 )
 cursor = conn.cursor()
 
